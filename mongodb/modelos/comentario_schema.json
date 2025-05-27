@@ -1,0 +1,12 @@
+{
+  "title": "Comentário de Cliente",
+  "type": "object",
+  "properties": {
+    "cliente_id": { "type": "string" },
+    "produto": { "type": "string" },
+    "avaliacao": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "comentario": { "type": "string" },
+    "data": { "type": "string", "format": "date-time" }
+  },
+  "required": ["cliente_id", "produto", "avaliacao", "comentario", "data"]
+}

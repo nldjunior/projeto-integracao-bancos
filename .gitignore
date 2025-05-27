@@ -1,0 +1,7 @@
+# ambiente virtual, arquivos temporarios, arquivos do sistema
+.venv/
+*.fs
+*.fs.*
+__pycache__/
+*.pyc
+.DS_Store

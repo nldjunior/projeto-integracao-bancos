@@ -1,0 +1,38 @@
+# api e web
+flask
+flask-cors
+flask-migrate
+jinja2
+
+# banco objeto zodb
+ZODB
+persistent
+transaction
+
+# mongodb
+pymongo
+
+# datawarehouse / sql
+sqlalchemy
+psycopg2-binary   
+
+# etl e manipulacao de dados
+pandas
+numpy
+python-dateutil
+
+# mineracao de dados
+scikit-learn
+
+# vizualizacao e dashboard
+matplotlib
+plotly
+streamlit
+
+# testes
+pytest
+coverage
+
+# documentacao e config
+sphinx
+python-dotenv

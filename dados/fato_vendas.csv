@@ -1,0 +1,4 @@
+id_fato,id_tempo,id_produto,id_cliente,id_localidade,quantidade,valor_total,desconto
+1,1,1,1,1,10,25.00,0
+2,2,2,2,2,5,50.00,5
+3,3,3,3,3,2,120.00,10

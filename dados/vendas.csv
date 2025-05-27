@@ -1,0 +1,4 @@
+id_venda,data,id_produto,id_cliente,quantidade,valor_total,desconto
+1,2025-05-01,1,1,10,25.00,0
+2,2025-05-03,2,2,5,50.00,5.00
+3,2025-05-05,3,3,2,200.00,0
