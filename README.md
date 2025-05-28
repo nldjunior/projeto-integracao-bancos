@@ -35,6 +35,8 @@ Este projeto tem como objetivo demonstrar a integração de diferentes tecnologi
 
 - **Fato:** `fato_vendas`
 - **Dimensões:** `dim_cliente`, `dim_produto`, `dim_localidade`, `dim_tempo`
+![Esquema Estrela](datawarehouse/esquemas/esquema_estrela.jpeg)
+![Modelo Lógico DW](datawarehouse/esquemas/modelo_logico_dw.png)
 
 ### MongoDB
 
@@ -42,10 +44,12 @@ Este projeto tem como objetivo demonstrar a integração de diferentes tecnologi
   - campos: `cliente_id`, `produto`, `avaliacao`, `comentario`, `data`
 - Coleção **vendas**
   - campos: `cliente`, `produto`, `quantidade`, `valor_total`, `data`
+![Modelo Lógico](mongodb/esquemas/esquema_mongodb.png)
 
 ### ObjectDB (Conceitual)
 
 - classes modeladas: `Cliente`, `Produto`, `Venda`, `Comentario` (sem implementação prática)
+![Modelo Lógico](objectdb/esquemas/esquema_objectdb.png)
 
 ---
 
